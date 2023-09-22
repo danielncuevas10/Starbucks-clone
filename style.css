@@ -158,3 +158,68 @@ header ul li a {
     background-color: #017143;
     clip-path: circle(600px at right 800px);
 }
+
+@media (max-width: 700px) {
+
+    .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #017143;
+        clip-path: circle(60px at right 80px);
+    }
+
+    .sci {
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content .textBox h2 span {
+        color: #017143;
+        font-size: 2em;
+        font-weight: 800;
+    }
+
+    .content .textBox a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 2px 20px;
+        background: #017143;
+        color: #fff;
+        border-radius: 4px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+    }
+
+    .thumb li img {
+        max-width: 35px;
+    }
+
+    .content .textBox h2 span {
+        color: #017143;
+        font-size: 3rem;
+        font-weight: 500;
+        left: 0;
+    }
+
+    .content .imgBox {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        padding-right: 50px;
+        margin-top: 50px;
+    }
+    
+    .content .imgBox img  {
+        max-width: 340px;
+    }
+}
